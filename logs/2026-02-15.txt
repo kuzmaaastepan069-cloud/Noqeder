@@ -1,0 +1,28 @@
+[12:53:50] ПОДКЛЮЧЕНИЕ: {"socketId":"wKUgU4zJF3RcxygIAAAB"}
+[12:53:51] ПОДКЛЮЧЕНИЕ: {"socketId":"z_IhpI3KKu1SaOs9AAAD"}
+[12:53:56] ПОДКЛЮЧЕНИЕ: {"socketId":"MhAzn5bpKjL-c7qKAAAF"}
+[12:53:58] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie"}
+[12:54:09] ПОДКЛЮЧЕНИЕ: {"socketId":"WJF8jAMmqZ5Sl8ddAAAH"}
+[12:54:12] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie2"}
+[13:02:41] ПОДКЛЮЧЕНИЕ: {"socketId":"I1YgenkgFkskxmYIAAAB"}
+[13:02:41] ПОДКЛЮЧЕНИЕ: {"socketId":"ZvwWwqprIBUA583aAAAD"}
+[13:02:45] ПОДКЛЮЧЕНИЕ: {"socketId":"obXgRlbfe2MoQ0cdAAAF"}
+[13:02:46] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie"}
+[13:02:51] ПОДКЛЮЧЕНИЕ: {"socketId":"BJeggpveZEwLfGy-AAAH"}
+[13:02:55] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie2"}
+[13:03:11] ОТКЛЮЧЕНИЕ: {"username":"moowie2"}
+[13:03:12] ОТКЛЮЧЕНИЕ: {"username":"moowie"}
+[13:07:07] ПОДКЛЮЧЕНИЕ: {"socketId":"XwUAaaolZzpc5ynmAAAB"}
+[13:07:13] ПОДКЛЮЧЕНИЕ: {"socketId":"9J7iVVeOnbRt39MkAAAD"}
+[13:07:14] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie"}
+[13:07:17] ПОДКЛЮЧЕНИЕ: {"socketId":"z54FaVKDDt6ARY-tAAAF"}
+[13:07:22] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie2"}
+[13:07:29] СООБЩЕНИЕ: {"от":"moowie","текст":"[f."}
+[13:07:36] СООБЩЕНИЕ: {"от":"moowie2","текст":"ЕЕ РАБОТАЕТ"}
+[13:41:38] ПОДКЛЮЧЕНИЕ: {"socketId":"TmLiQylfFJyNPNXZAAAB"}
+[13:41:38] ПОДКЛЮЧЕНИЕ: {"socketId":"J2btbQEbT2KghKCmAAAE"}
+[13:41:38] ПОДКЛЮЧЕНИЕ: {"socketId":"-CO57SSPLEc_hNfUAAAF"}
+[13:41:40] ПОДКЛЮЧЕНИЕ: {"socketId":"H3YtrjqKFdRidxzQAAAH"}
+[13:41:41] ПОДКЛЮЧЕНИЕ: {"socketId":"rPH5S_14sxV_jZEdAAAJ"}
+[13:41:46] НОВЫЙ ПОЛЬЗОВАТЕЛЬ: {"username":"moowie"}
+[13:41:52] ПОДКЛЮЧЕНИЕ: {"socketId":"V3s497-h4U3Ztt0GAAAL"}
