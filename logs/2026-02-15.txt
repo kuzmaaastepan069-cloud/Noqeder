@@ -1,0 +1,7 @@
+[21:47:54] SERVER_START: {"port":3000}
+[21:48:01] SOCKET_CONNECT: {"socketId":"YJ4SChK-0ZHj8Mw9AAAB"}
+[21:48:14] NEW_USER: {"username":"moowie","userId":"user_1771181294402_3h1i4gimc"}
+[21:48:14] USER_LOGIN: {"username":"moowie","userId":"user_1771181294402_3h1i4gimc"}
+[21:48:17] SOCKET_CONNECT: {"socketId":"zDqlMEpaFycJnGZ2AAAD"}
+[21:48:22] NEW_USER: {"username":"moowie2","userId":"user_1771181302478_ea3j2rzm9"}
+[21:48:22] USER_LOGIN: {"username":"moowie2","userId":"user_1771181302478_ea3j2rzm9"}

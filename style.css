@@ -1,0 +1,162 @@
+:root {
+    --glass-bg: rgba(20, 20, 25, 0.7);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --accent-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    --accent-shadow: rgba(99, 102, 241, 0.4);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* Глубокий фон с легким градиентом для объема */
+    background: radial-gradient(circle at top left, #1e1e24, #0a0a0c);
+    color: var(--text-primary);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Эффект матового жидкого стекла */
+.glass-panel {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Контейнер приложения */
+#app {
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    overflow: hidden;
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Боковая панель (Список чатов) */
+.sidebar {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--glass-border);
+}
+
+.sidebar-header {
+    padding: 30px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Элементы списка пользователей */
+.user-item {
+    margin: 8px 15px;
+    padding: 12px;
+    border-radius: 16px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-item:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateX(5px);
+}
+
+.user-item.active {
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+/* Сообщения */
+.message {
+    position: relative;
+    max-width: 65%;
+    padding: 14px 18px;
+    margin: 8px 0;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.msg-own {
+    align-self: flex-end;
+    background: var(--accent-gradient);
+    border-radius: 20px 20px 4px 20px;
+    color: white;
+}
+
+.msg-partner {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(5px);
+    border-radius: 20px 20px 20px 4px;
+    border: 1px solid var(--glass-border);
+}
+
+/* Поле ввода (Солидность в деталях) */
+.input-area {
+    margin: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--glass-border);
+    transition: border 0.3s;
+}
+
+.input-area:focus-within {
+    border-color: #6366f1;
+    box-shadow: 0 0 15px var(--accent-shadow);
+}
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    flex: 1;
+    font-size: 1rem;
+    outline: none;
+}
+
+/* Кнопка "Отправить" с неоновым свечением */
+#send-btn {
+    background: var(--accent-gradient);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 15px var(--accent-shadow);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#send-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px var(--accent-shadow);
+}
+
+/* Скроллбар в стиле Cyberpunk */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--accent-gradient); }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.98); }
+    to { opacity: 1; transform: scale(1); }
+}
